@@ -6,7 +6,8 @@ import {Account} from '../screens/Account';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 const {Navigator, Screen} = createBottomTabNavigator();
-export function AppRoutes() {
+
+export function TabRoutes() {
   return (
     <Navigator
       screenOptions={{

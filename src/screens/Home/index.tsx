@@ -3,6 +3,7 @@ import {Container} from './styles';
 import {Carousel} from '../../components/Carousel';
 import {Card} from '../../components/Card';
 import {Text} from 'react-native';
+import {useNavigation} from '@react-navigation/native';
 
 export function Home() {
   return (

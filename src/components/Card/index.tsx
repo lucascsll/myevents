@@ -1,12 +1,14 @@
 import React from 'react';
 import {Image, ScrollView, Text, TouchableOpacity} from 'react-native';
 import {Container, Content} from './styles';
+import {useNavigation} from '@react-navigation/native';
 
 export function Card() {
+  const navigation = useNavigation();
   return (
-    <ScrollView style={{}}>
+    <ScrollView style={{marginBottom: 150}}>
       <Container>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('DetailsTickets')}>
           <Image
             resizeMode={'stretch'}
             style={{
