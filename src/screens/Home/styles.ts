@@ -7,3 +7,5 @@ export const Container = styled.View`
   //border-bottom-left-radius: 5px;
   //border-bottom-right-radius: 5px;
 `;
+
+

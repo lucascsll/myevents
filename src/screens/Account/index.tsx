@@ -1,10 +1,7 @@
 import React from 'react';
 import {Text, View} from 'react-native';
+import {BoxTitles} from '../../components/BoxTitles';
 
 export function Account() {
-  return (
-    <View>
-      <Text>Accaunt</Text>
-    </View>
-  );
+  return <BoxTitles title={'Conta'} />;
 }

@@ -32,8 +32,8 @@ export function Carousel() {
       </Content>
       <Content>
         <TouchableOpacity>
-          <MaterialCommunityIcons size={30} name="run" />
-          <Text>Esporte</Text>
+          <MaterialCommunityIcons size={30} name="shopping-outline" />
+          <Text>Promoções</Text>
         </TouchableOpacity>
       </Content>
     </Container>
